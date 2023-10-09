@@ -1,4 +1,4 @@
-import React from 'react';
+
 import filtros from './filtros.json';
 import styles from './Filtros.module.scss';
 import classNames from 'classnames';
