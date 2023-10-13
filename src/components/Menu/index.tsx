@@ -1,5 +1,6 @@
 import { ReactComponent as Logo } from 'assets/logo.svg';
 import styles from './Menu.module.scss';
+import { Link } from 'react-router-dom';
 
 export default function Menu() {
   const rotas = [{
@@ -20,7 +21,7 @@ export default function Menu() {
       <ul className={styles.menu__list}>
         {rotas.map((rota, index) => (
           <li key={index} className={styles.menu__link}>
-            <a href={rota.to}>{rota.label}</a>
+            <Link to={rota.to}>{rota.label}</Link>
           </li>
         ))}
       </ul>
