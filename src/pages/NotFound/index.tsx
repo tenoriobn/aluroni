@@ -14,7 +14,7 @@ export default function NotFound() {
     })}>
       <div className={styles.voltar}>
         <button onClick={() => navigate(-1)}>
-          {'<voltar '}
+          {'< Voltar '}
         </button>
       </div>
 
